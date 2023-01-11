@@ -40,7 +40,7 @@ import {
   Fade,
 } from "@mui/material";
 import { useTheme, ThemeProvider, createTheme } from "@mui/material/styles";
-// import video from "../assets/video.mp4";
+import video from "../assets/video.mp4";
 
 // icons
 import Brightness4Icon from "@mui/icons-material/Brightness4";
@@ -60,7 +60,7 @@ const Home = () => {
         padding: "30px",
       }}
     >
-      {/* <video
+      <video
         style={{
           position: "fixed",
           right: 0,
@@ -74,7 +74,7 @@ const Home = () => {
         muted
       >
         <source src={video} type="video/mp4" />
-      </video> */}
+      </video>
       {/* inside frame */}
       <Grid
         sx={{
